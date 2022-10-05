@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.checkmark{
+    font-size: 16px;
+    color:blue;
+    margin-bottom: 0px;
+}
+
+.__icon-phone{
+    font-size: 16px;
+}
+
+:root {
+    --pink-color: #fff;
+}
+
+body {
+    background-image: url(https://www.startrader.com/wp-content/uploads/2022/03/trade_advantage_back.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card {
+    width: 326px;
+    height: 600px;
+    background: #040824;
+    border-radius: 10px;
+    margin: 0px 30px;
+    text-align: center;
+    overflow: hidden;
+    color: #ffff;
+    border: 2px solid var(--pink-color);
+}
+
+.card__image {
+    margin: 20px auto;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    border: 4px solid #ffff;
+    overflow: hidden;
+    /* cursor: pointer; */
+}
+
+.card__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+.card__name {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.card__job {
+    color: #FFD700;
+    margin: 10px 0px;
+    font-style: italic;
+    
+
+}
+
+.card__social {
+    margin: 16px 0px;
+}
+
+.card__social a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.card__social i {
+    margin: 8px 20px;
+    font-size: 24px;
+    transition: 0.5s;
+}
+
+
+.card__social i:hover {
+    color: var(--pink-color);
+    font-size: 32px;
+    margin: 0px 20px;
+}
+
+
+.card__payment-title button {
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    background: transparent;
+    color: #FFD700;
+    border-radius: 10px;
+    border: 1px solid var(--pink-color);
+    font-weight: bold;
+    transition: 0.5s;
+}
+/* .card__payment-title button:hover {
+    background: red;
+} */
+
+/* .card__image:hover {
+    height: 100%;
+    width: 100%;
+    border-radius: unset;
+    border: unset;
+    margin: unset;
+} */
+
+.card__image img:hover {
+    border-radius: unset;
+}
+
+.card__payment{
+   padding: 5px;
+   margin: 8px;
+   background: transparent;
+   border: 1px solid var(--pink-color);
+   border-radius: 4px;
+   display: flex;
+   transition: 0.3s;
+}
+
+.payment__images{
+    width:60px;
+    height: 60px;
+    margin-right: 16px ;
+    transition: 0.3s;
+}
+
+.payment__images img{
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.payment__lable{
+    margin-top: 4px;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 10px ;
+    border-left: 2px solid var(--pink-color) ;
+    color: #cea469;
+}
+.payment__detail{
+    margin: 16px 0px;
+    text-align: left;
+    padding-left: 8px ;
+}
+.card__payment p{
+    padding: 1px;
+}
+
+.payment__text{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+
+.card__payment:hover{
+    border: 3px solid var(--pink-color);
+    /* padding: 5px; */
+}
+.card__payment:hover .payment__images {
+    width:64px;
+    height: 64px;
+    margin-right: 16px ;
+}
